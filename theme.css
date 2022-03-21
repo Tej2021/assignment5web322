@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme|Roboto&display=swap');
+
+.bg-light {
+    background: linear-gradient( to bottom, rgb(138, 137, 137), white); 
+    box-shadow: -1px 16px 18px -3px rgba(97,97,97,1);  
+}
+
+.navbar-light .navbar-brand {
+    font-size: 22pt;
+    font-family: 'Leckerli One';
+    color: rgb(19, 2, 51) !important;
+    text-shadow: 5px 3px 6px rgb(66, 65, 65)
+}
+
+a.nav-link{
+    font-size: 14pt;
+    font-family: 'Lobster';
+    color: rgb(19, 2, 51) !important;
+} 
+
+a.nav-link:hover{
+    color: rgb(42, 40, 165) !important;
+}
+
+body,html {
+    background: rgb(49, 5, 5);
+    background: linear-gradient( to bottom, rgb(139, 90, 90), white);
+    background: url(mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.btn-primary {
+    color: blue !important;
+    background: linear-gradient( to bottom, rgb(138, 137, 137), white);
+    box-shadow: -1px 2px 36px 13px rgba(1, 10, 26, 0.75); 
+}
+
+.btn-primary:hover {
+    color: rgb(228, 126, 43) !important;
+}
+
+table tr:nth-child(odd) td {
+    background-color: rgba(51, 143, 196, 0.521) !important;
+    background: linear-gradient( to bottom, rgba(253, 0, 0, 0.473), rgba(255, 255, 255, 0.116));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #da003e;
+    text-shadow: 3px 2px 6px rgba(0,0,0,0.6);
+}
+
+a {
+    color: rgb(0, 0, 0) !important;
+}
+
+a:hover {
+    color: rgb(36, 94, 28) !important;
+}
+
+legend {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Acme', sans-serif;
+    color: rgb(6, 36, 26) !important;
+    text-shadow: 3px 0px 4px rgba(0,0,0,0.45);
+}

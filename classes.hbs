@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-md-12">
+    <h2>Classes</h2>
+    <hr />
+    <div class="table-responsive">
+            <table class="table ">
+                <thead>
+                    <tr>
+                        <th>Class Number</th>
+                        <th>Class Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each classes}}
+                    <tr>
+                        <td><a href="/employees?class={{classId}}">{{classId}}</a></td>
+                        <td><a href="/employees?class={{classId}}">{{className}}</a></td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+    </div>
+  </div>
+</div>
